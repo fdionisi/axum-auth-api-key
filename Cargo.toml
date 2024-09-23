@@ -1,0 +1,9 @@
+[package]
+name = "axum-auth-api-key"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7"
+axum-extra = { version = "0.9", features = ["typed-header"] }
+headers = "0.4"
